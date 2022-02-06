@@ -32,5 +32,7 @@ RUN pip install --no-cache-dir geopandas
 
 RUN pip install --no-cache-dir astral
 
+RUN pip install --no-cache-dir difflib
+
 # Override command to disable running jupyter notebook at launch
 # CMD ["/bin/bash"]
