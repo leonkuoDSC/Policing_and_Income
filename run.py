@@ -11,10 +11,7 @@ sys.path.insert(0, 'src/model')
 
 def main(targets):
     '''
-    Runs the main project pipeline logic, given the targets.
-    targets must contain: 'data', 'analysis', 'model'. 
-    
-    `main` runs the targets in order of data=>analysis=>model.
+    test: gives a sample on how the car price listing algorithm generates car price using "vehicle_make" and "vehicle_model"
     '''
 
     
